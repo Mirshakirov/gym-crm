@@ -1,0 +1,37 @@
+[ {
+  "firstName" : "John",
+  "lastName" : "Doe",
+  "username" : "john.doe",
+  "password" : "password123",
+  "userId" : 1,
+  "dateOfBirth" : [ 1990, 5, 15 ],
+  "address" : "123 Main St, New York",
+  "active" : true
+}, {
+  "firstName" : "Jane",
+  "lastName" : "Smith",
+  "username" : "jane.smith",
+  "password" : "password456",
+  "userId" : 2,
+  "dateOfBirth" : [ 1992, 8, 22 ],
+  "address" : "456 Oak Ave, Los Angeles",
+  "active" : true
+}, {
+  "firstName" : "Bob",
+  "lastName" : "Johnson",
+  "username" : "bob.johnson",
+  "password" : "password789",
+  "userId" : 3,
+  "dateOfBirth" : [ 1988, 12, 3 ],
+  "address" : "789 Pine Rd, Chicago",
+  "active" : false
+}, {
+  "firstName" : "Mirsaid",
+  "lastName" : "Mirshakirov",
+  "username" : "Mirsaid.Mirshakirov",
+  "password" : "Sea&8UXB8h",
+  "userId" : 4,
+  "dateOfBirth" : [ 2005, 7, 9 ],
+  "address" : "Tashkent",
+  "active" : true
+} ]
