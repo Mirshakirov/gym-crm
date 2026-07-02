@@ -2,7 +2,6 @@ package com.gymcrm.service;
 
 import com.gymcrm.dao.TrainerDAO;
 import com.gymcrm.model.Trainer;
-import com.gymcrm.model.TrainingType;
 import com.gymcrm.service.impl.TrainerServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

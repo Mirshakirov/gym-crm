@@ -2,7 +2,6 @@ package com.gymcrm.dao;
 
 import com.gymcrm.dao.impl.TrainerDAOImpl;
 import com.gymcrm.model.Trainer;
-import com.gymcrm.model.TrainingType;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import java.util.HashMap;

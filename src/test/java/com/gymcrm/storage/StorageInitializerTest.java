@@ -71,7 +71,7 @@ class StorageInitializerTest {
     }
 
     @Test
-    void testInitializeStoragesWhenResourcesDoNotExist() throws IOException {
+    void testInitializeStoragesWhenResourcesDoNotExist() {
         when(resourceLoader.getResource(anyString())).thenReturn(resource);
         when(resource.exists()).thenReturn(false);
 
