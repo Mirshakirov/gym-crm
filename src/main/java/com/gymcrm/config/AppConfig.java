@@ -5,7 +5,6 @@ import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.gymcrm.model.Trainee;
 import com.gymcrm.model.Trainer;
 import com.gymcrm.model.Training;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -20,15 +19,6 @@ import java.util.Map;
 @ComponentScan("com.gymcrm")
 @PropertySource("classpath:application.properties")
 public class AppConfig {
-
-    @Value("${storage.trainees.file.path}")
-    private String traineesFilePath;
-
-    @Value("${storage.trainers.file.path}")
-    private String trainersFilePath;
-
-    @Value("${storage.trainings.file.path}")
-    private String trainingsFilePath;
 
     @Bean
     public Map<Long, Trainee> traineeStorage() {
