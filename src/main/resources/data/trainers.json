@@ -1,0 +1,31 @@
+[ {
+  "firstName" : "Mike",
+  "lastName" : "Wilson",
+  "username" : "mike.wilson",
+  "password" : "trainer123",
+  "userId" : 1,
+  "trainingType" : {
+    "trainingTypeName" : "Yoga"
+  },
+  "active" : true
+}, {
+  "firstName" : "Sarah",
+  "lastName" : "Davis",
+  "username" : "sarah.davis",
+  "password" : "trainer456",
+  "userId" : 2,
+  "trainingType" : {
+    "trainingTypeName" : "CrossFit"
+  },
+  "active" : true
+}, {
+  "firstName" : "Chris",
+  "lastName" : "Brown",
+  "username" : "chris.brown",
+  "password" : "trainer789",
+  "userId" : 3,
+  "trainingType" : {
+    "trainingTypeName" : "Pilates"
+  },
+  "active" : true
+} ]
