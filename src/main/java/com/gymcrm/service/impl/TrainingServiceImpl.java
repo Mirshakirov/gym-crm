@@ -1,7 +1,7 @@
 package com.gymcrm.service.impl;
 
-import com.gymcrm.dao.TrainingDAO;
-import com.gymcrm.model.Training;
+import com.gymcrm.repository.TrainingDAO;
+import com.gymcrm.entity.Training;
 import com.gymcrm.service.TrainingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -24,11 +24,11 @@ public class TrainingServiceImpl implements TrainingService {
         if (training == null) {
             throw new IllegalArgumentException("Training cannot be null");
         }
-        if (training.getTraineeId() == null) {
-            throw new IllegalArgumentException("Trainee ID cannot be null");
+        if (training.getTrainee() == null) {
+            throw new IllegalArgumentException("Trainee cannot be null");
         }
-        if (training.getTrainerId() == null) {
-            throw new IllegalArgumentException("Trainer ID cannot be null");
+        if (training.getTrainer() == null) {
+            throw new IllegalArgumentException("Trainer cannot be null");
         }
         return trainingDAO.save(training);
     }
