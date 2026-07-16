@@ -1,0 +1,28 @@
+[ {
+  "traineeId" : 1,
+  "trainerId" : 1,
+  "trainingName" : "Morning Yoga",
+  "trainingType" : {
+    "trainingTypeName" : "Yoga"
+  },
+  "trainingDate" : [ 2026, 6, 25 ],
+  "trainingDuration" : 60
+}, {
+  "traineeId" : 2,
+  "trainerId" : 2,
+  "trainingName" : "CrossFit Session",
+  "trainingType" : {
+    "trainingTypeName" : "CrossFit"
+  },
+  "trainingDate" : [ 2026, 6, 26 ],
+  "trainingDuration" : 90
+}, {
+  "traineeId" : 3,
+  "trainerId" : 3,
+  "trainingName" : "Pilates Class",
+  "trainingType" : {
+    "trainingTypeName" : "Pilates"
+  },
+  "trainingDate" : [ 2026, 6, 27 ],
+  "trainingDuration" : 45
+} ]
